@@ -42,15 +42,11 @@ footer a:focus { outline: thin dotted; }
 footer {padding:50px 0 20px 0; width:960px;}
     
 
-#slideshow { 
-  background-color:#ebd7b6;
+#slideshow {
+  background-color:#c7e3bd;
   padding:35px;
   width:890px;
   height:270px;
-}
-
-#content {
-    padding:30px;
 }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -108,8 +104,16 @@ sub { bottom: -0.25em; }
 h1 {
   font-size:1.5em;
 }
-
-
+.content_box h1,.content_box p {
+padding-left:50px;
+}
+.content_box h1 {
+  font-size:1.8em;
+}
+h1.colored {
+  background-color:#c7e3bd;
+  color:#fff;
+}
 /* =============================================================================
    Lists
    ========================================================================== */
@@ -297,13 +301,13 @@ td { vertical-align: top; }
 .grid_12 { width:880px; }
 
 .column {
-	margin: 0 10px;
+	margin: 0 10px 0 0;
 	overflow: hidden;
 	float: left;
 	display: inline;
 }
 .row {
-	width: 900px;
+	/*width: 900px;*/
 	margin: 0 auto;
 	overflow: hidden;
 }
