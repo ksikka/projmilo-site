@@ -14,8 +14,7 @@ audio:not([controls]) { display: none; }
    ========================================================================== */
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-/*html, button, input, select, textarea { font-family: 'Oxygen', sans-serif; color: #222; font-size:100% }
-*/html, button, input, select, textarea { font-family: 'Futura-PM', sans-serif; color: #222; font-size:100% }
+html, button, input, select, textarea { font-family: 'Futura-PM', sans-serif; color: #222; font-size:100% }
 
 
 body { margin: 0; font-size: 1em; line-height: 1.4;
@@ -29,7 +28,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4;
 
 header {
   padding:10px;
-  height:90px;
+  padding-left:37px;
+  height:100px;
 }
 
 #nav a, #nav a:hover, #nav a:visited { color: #222; text-decoration:none; font-size: .93em}
@@ -116,7 +116,7 @@ h1 {
 
 footer ul, header ul {
   float:right;
-  margin:50px 0px 0px 0px;
+  margin:63px 0px 0px 0px;
   padding-left:0;
   list-style-type:none;
   list-style-image: none; 
@@ -140,7 +140,7 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
  */
 
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-header img {height:96px;width:225.6px;}
+header img {height:87px;width:210px;}
 
 /*
  * Correct overflow not hidden in IE9
