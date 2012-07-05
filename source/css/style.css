@@ -1,4 +1,8 @@
-/* h5bp base, other stuff by Karan Sikka */
+/* h5bp base; the other stuff is by Karan Sikka */
+@font-face{
+  font-family: Futura-PM;
+  src: url('../Futura/FuturaStd Book.otf');
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -10,7 +14,8 @@ audio:not([controls]) { display: none; }
    ========================================================================== */
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: 'Oxygen', sans-serif; color: #222; font-size:100% }
+/*html, button, input, select, textarea { font-family: 'Oxygen', sans-serif; color: #222; font-size:100% }
+*/html, button, input, select, textarea { font-family: 'Futura-PM', sans-serif; color: #222; font-size:100% }
 
 
 body { margin: 0; font-size: 1em; line-height: 1.4;
