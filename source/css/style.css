@@ -58,6 +58,8 @@ footer {padding:50px 0 20px 0; width:960px;}
   top:75px;
   -webkit-transform: rotate(65deg);
   -moz-transform: rotate(65deg);
+  -o-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
 }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
