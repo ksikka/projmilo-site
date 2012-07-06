@@ -43,10 +43,21 @@ footer {padding:50px 0 20px 0; width:960px;}
     
 
 #slideshow {
+  position:relative;
   background-color:#c7e3bd;
   padding:35px;
   width:890px;
-  height:270px;
+  height:250px;
+  overflow:hidden;
+}
+
+#slideshow img.heart{
+  zoom:.85;
+  position:absolute;
+  right:0;
+  top:75px;
+  -webkit-transform: rotate(65deg);
+  -moz-transform: rotate(65deg);
 }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -112,7 +123,7 @@ padding-left:50px;
 }
 h1.colored {
   background-color:#c7e3bd;
-  color:#fff;
+  color:#000;
 }
 /* =============================================================================
    Lists
